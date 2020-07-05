@@ -1,14 +1,5 @@
 Feature('Тест Авторизация в систему');
 
-// Before(async (I) => { // or Background
-//     const mailbox = await I.haveNewMailbox();
-//     const email = await I.waitForEmailMatching({
-//         from: '@opencity.pro', // find anything from mysite
-//         subject: 'Регистрация', // with Restore password in subject
-//     });
-//     console.log(email.body);
-// });
-
 Before((I) => { // or Background
     I.amOnPage('https://new.nnov.opencity.pro/');
     I.see('Оставить заявку');
