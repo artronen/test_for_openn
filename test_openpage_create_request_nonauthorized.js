@@ -1,6 +1,5 @@
 Feature('Тест Открытие страницы создания заявки неавторизованным пользователем');
 
-
 Before((I) => { // or Background
     I.amOnPage('https://new.nnov.opencity.pro/');
     I.see('Оставить заявку');
