@@ -3,7 +3,7 @@ exports.config = {
   output: './output',
   helpers: {
     Puppeteer: {
-      url: 'http://localhost',
+      url: 'https://new.nnov.opencity.pro/',
       show: false,
       windowSize: '1200x900'
     },
